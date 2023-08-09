@@ -1094,7 +1094,7 @@ london_instruction_table = InstructionTable(  # type: ignore
     london_instruction_table, previous_fork=istanbul_instruction_table
 )
 
-shanghai_instruction_table = {0x5F: ("PUSH", 1, 0, 1, 2, "Place value 0 on stack")}
+shanghai_instruction_table = {0x5F: ("PUSH", 0, 0, 1, 2, "Place value 0 on stack")}
 
 shanghai_instruction_table = InstructionTable(  # type: ignore
     shanghai_instruction_table, previous_fork=london_instruction_table
